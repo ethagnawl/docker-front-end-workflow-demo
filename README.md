@@ -45,4 +45,4 @@ its task. There is also _zero_ chance of causing conflicts on your host system
 because you've added/removed/upgraded/downgraded packages in order to satisfy
 the current project's dependency requirements. (Caveat: Docker versions and
 image/container tag names could potentially cause conflicts. You'll probably
-want to come up with a convention for the latter.)
+want to come up with a naming convention for the latter.)
