@@ -43,4 +43,6 @@ allowed you to create a sandboxed environment, which can be versioned and
 shared with your teammates, which contains everything it needs in order to do
 its task. There is also _zero_ chance of causing conflicts on your host system
 because you've added/removed/upgraded/downgraded packages in order to satisfy
-the current project's dependency requirements.
+the current project's dependency requirements. (Caveat: Docker versions and
+image/container tag names could potentially cause conflicts. You'll probably
+want to come up with a convention for the latter.)
