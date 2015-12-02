@@ -5,5 +5,5 @@ Rake::TestTask.new do |t|
 end
 
 task :build do
-  `docker run --rm -v $(pwd)/src/app.js:/app.js -v $(pwd)/build:/build closure-compiler`
+  `docker run --rm -v $(pwd)/src/app.js:/app.js -v $(pwd)/build:/build closure-compiler-demo`
 end
