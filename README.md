@@ -27,7 +27,7 @@ came to mind, so that's the use-case I ran with.
     `rake build` task in the local Rakefile, in order to show how it'd be used
     as part of a standard workflow.)
 
-# Description
+# Summary
 If you've run the commands listed above, the result should see be a "compiled"
 version of the JavaScript file found in src/app.js in build/app.min.js. The
 approach used here involves [mounting files from the project in the
@@ -35,7 +35,6 @@ container](https://docs.docker.com/engine/userguide/dockervolumes/#mount-a-host-
 but you could just as easily pass their contents to the container using the
 usual *nix utilities and a different `CMD`.
 
-# Summary
 Hopefully, the value-add provided by Docker here is apparent. Two commands
 allowed you to create a sandboxed environment, which can be versioned and
 shared with your teammates, which contains everything it needs in order to do
