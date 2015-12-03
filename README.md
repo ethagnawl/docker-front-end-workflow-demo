@@ -9,9 +9,7 @@ installing and configuring [Google's Closure
 Compiler](https://developers.google.com/closure/compiler://developers.google.com/closure/compiler)
 came to mind, so that's the use-case I ran with.
 
-# Running the example
-If you're interested in running this demo, you'll need to do the following:
-
+# Following Along at Home
 - [Install Docker](https://docs.docker.com/engine/installation/ubuntulinux/).
     (Note: I was working on a Linux host, so if you're using OS X or Windows,
     you'll need to use Docker Machine, Boot2Docker, etc.)
