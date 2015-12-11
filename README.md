@@ -6,7 +6,7 @@ how/why Docker is useful to a few people who aren't traditionally interested in
 ops and being met with either glazed eyes or responses like, "Sounds cool, but
 why should I care?" A particular conversation with someone who'd had trouble
 installing and configuring [Google's Closure
-Compiler](https://developers.google.com/closure/compiler://developers.google.com/closure/compiler)
+Compiler](https://developers.google.com/closure/compiler/)
 came to mind, so that's the use-case I ran with.
 
 # Following Along at Home
