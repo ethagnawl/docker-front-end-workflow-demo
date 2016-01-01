@@ -37,7 +37,7 @@ usual *nix utilities and a different `CMD`.
 
 Hopefully, the value-add provided by Docker here is apparent. Two commands
 allowed you to create a sandboxed environment, which can be versioned and
-shared with your teammates, which contains everything it needs in order to do
+shared with your teammates, which contains everything it needs in order to complete
 its task. There is also _zero_ chance of causing conflicts on your host system
 because you've added/removed/upgraded/downgraded packages in order to satisfy
 the current project's dependency requirements. (Caveat: Docker versions and
