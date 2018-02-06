@@ -16,11 +16,10 @@ came to mind, so that's the use-case I ran with.
 - run `docker build -t closure-compiler-demo .` from the project root order to
     [build a Docker image from the local
     Dockerfile](https://docs.docker.com/engine/userguide/dockerimages/#building-an-image-from-a-dockerfile).
-    This will create an image which contains the latest version of Java and
-    Closure Compiler. (Note: in a production environment, you'll want to use
-    specific versions of each.) It also specifies the [default
-    command](https://docs.docker.com/v1.8/reference/builder/#cmd) to run when
-    this image is used to build and execute a container.
+    This will create an image which contains the specified version of Java
+    (via OpenJDK) and Closure Compiler. It also specifies the
+    [default command](https://docs.docker.com/engine/reference/builder/#cmd) to
+    run when this image is used to build and execute a container.
 - You can build and execute a one-time-use Docker container using your newly
     created image by running, `docker run --rm -v $(pwd)/src/app.js:/app.js -v
     $(pwd)/build:/build closure-compiler-demo`. (I've bundled this up as the

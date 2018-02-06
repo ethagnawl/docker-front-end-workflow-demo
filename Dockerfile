@@ -1,4 +1,4 @@
-FROM java:latest
+FROM openjdk:10-slim
 
 RUN apt-get update && yes | apt-get install closure-compiler
 
