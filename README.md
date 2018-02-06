@@ -36,7 +36,7 @@ utilities and a different `CMD`. It's also worth noting that this approach
 assumes that the build target (build/app.min.js) already exists, as
 [controlling ownership of files _created_ by Docker is ... complicated](https://github.com/moby/moby/issues/2259).
 
-Hopefully, the value-add provided by Docker here is apparent. Two commands
+Hopefully the value-add provided by Docker here is apparent: Two commands
 have allowed you to create a sandboxed environment, which can be versioned and
 shared with teammates/contributors, containing all of the
 dependencies/configuration/etc. it needs in order to complete the task at hand.
